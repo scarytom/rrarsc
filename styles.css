@@ -335,6 +335,33 @@ section {
     margin: 0 auto;
 }
 
+.about-with-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-2xl);
+    align-items: center;
+    max-width: none;
+}
+
+.about-with-image .about-text {
+    max-width: none;
+}
+
+.about-with-image .about-image img {
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
+}
+
+@media (max-width: 768px) {
+    .about-with-image {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-with-image .about-image {
+        order: -1;
+    }
+}
+
 .highlight-box {
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
     color: var(--color-text-inverse);
