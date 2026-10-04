@@ -131,6 +131,7 @@ p {
 
 section {
     padding: var(--space-3xl) 0;
+    scroll-margin-top: 80px;
 }
 
 /* ============================================
@@ -570,7 +571,7 @@ button:focus {
 /* Skip link for accessibility */
 .skip-link {
     position: absolute;
-    top: -40px;
+    top: -100%;
     left: 0;
     background: var(--color-accent);
     color: var(--color-text-inverse);
