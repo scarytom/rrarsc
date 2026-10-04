@@ -1,4 +1,4 @@
-/* RRARSC - Redhill and Reigate Artistic Roller Skating Club
+/* RRARSC - Reigate and Redhill Artistic Roller Skating Club
    Modern responsive stylesheet */
 
 /* ============================================
@@ -306,6 +306,7 @@ section {
 .card-icon {
     font-size: var(--font-size-2xl);
     margin-bottom: var(--space-md);
+    color: var(--color-primary);
 }
 
 /* ============================================
