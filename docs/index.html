@@ -6,6 +6,7 @@
     <meta name="description" content="Reigate and Redhill Artistic Roller Skating Club - Family skating sessions, lessons and roller discos in Surrey. All ages welcome, skate hire available.">
     <title>RRARSC - Reigate and Redhill Artistic Roller Skating Club</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/logo.png" type="image/png">
 </head>
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -38,17 +39,37 @@
     <!-- Main Content -->
     <main id="main-content">
         <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <img src="assets/logo.png" alt="" class="hero-logo" aria-hidden="true">
-                <h1>Welcome to RRARSC</h1>
-                <p class="tagline">Artistic roller skating for everyone in Surrey. Family sessions, coaching, and roller discos – all ages welcome, adults too!</p>
+        <section class="hero hero-fullscreen" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('assets/hero-bg.jpg');">
+            <div class="container hero-content">
+                <h1>Reigate and Redhill Artistic Roller Skating Club</h1>
+                <p class="hero-subtitle">Artistic roller skating for everyone in Surrey. Family sessions, coaching, and roller discos – all ages welcome, adults too!</p>
                 <a href="https://www.facebook.com/Reigate-and-Redhill-Roller-Skating-Club-135214560148057" target="_blank" rel="noopener" class="btn btn-primary">See Facebook for Latest News</a>
+            </div>
+            <!-- 4 Decorative photos in hero -->
+            <div class="hero-photo hero-photo-left-top">
+                <div class="fun-photo tilt-left">
+                    <img src="assets/1.jpg" alt="Skater having fun">
+                </div>
+            </div>
+            <div class="hero-photo hero-photo-left-bottom">
+                <div class="fun-photo tilt-right">
+                    <img src="assets/f.jpg" alt="Skating action">
+                </div>
+            </div>
+            <div class="hero-photo hero-photo-right-top">
+                <div class="fun-photo tilt-right">
+                    <img src="assets/2.jpg" alt="Skating performance">
+                </div>
+            </div>
+            <div class="hero-photo hero-photo-right-bottom">
+                <div class="fun-photo tilt-left">
+                    <img src="assets/g.jpg" alt="Club members skating">
+                </div>
             </div>
         </section>
 
         <!-- Sessions Section -->
-        <section id="sessions" class="sessions">
+        <section id="sessions" class="sessions" style="background-image: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('assets/3.jpg');">
             <div class="container">
                 <div class="section-header">
                     <h2>Our Sessions</h2>
@@ -57,6 +78,9 @@
 
                 <div class="card-grid">
                     <article class="card">
+                        <div class="card-photo">
+                            <img src="assets/4.jpg" alt="Family skating session">
+                        </div>
                         <div class="card-icon">🧑‍🤝‍🧑</div>
                         <h3>Family Skate</h3>
                         <p class="session-time">Saturdays 12:45pm – 1:45pm</p>
@@ -65,6 +89,9 @@
                     </article>
 
                     <article class="card">
+                        <div class="card-photo">
+                            <img src="assets/6.jpg" alt="Skating lessons">
+                        </div>
                         <div class="card-icon">🏅</div>
                         <h3>Lessons</h3>
                         <p class="session-time">Saturdays 2:00pm – 3:00pm</p>
@@ -73,6 +100,9 @@
                     </article>
 
                     <article class="card">
+                        <div class="card-photo">
+                            <img src="assets/5.jpg" alt="Roller disco">
+                        </div>
                         <div class="card-icon">🪩</div>
                         <h3>Monthly Roller Disco</h3>
                         <p class="session-time">Last Saturday of the month, 6:00pm – 8:00pm</p>
@@ -105,7 +135,7 @@
         </section>
 
         <!-- About Section -->
-        <section id="about">
+        <section id="about" style="background-image: linear-gradient(rgba(255,255,255,0.88), rgba(255,255,255,0.88)), url('assets/7.jpg');">
             <div class="container">
                 <div class="section-header">
                     <h2>About RRARSC</h2>
@@ -127,14 +157,22 @@
                         <p><strong>It doesn't matter how good you are – just come along and enjoy yourselves! And yes, adults can skate too!</strong></p>
                     </div>
                     <div class="about-image">
-                        <img src="assets/club.jpg" alt="RRARSC skaters">
+                        <div class="fun-photo tilt-right">
+                            <img src="assets/club.jpg" alt="RRARSC skaters">
+                        </div>
                     </div>
+                </div>
+            </div>
+            <!-- Decorative side photos -->
+            <div class="section-photo section-photo-left">
+                <div class="fun-photo tilt-left-more">
+                    <img src="assets/8.jpg" alt="Skating fun">
                 </div>
             </div>
         </section>
 
         <!-- Grades Section -->
-        <section id="grades" class="sessions">
+        <section id="grades" class="sessions" style="background-image: linear-gradient(rgba(255,250,240,0.85), rgba(255,250,240,0.85)), url('assets/q.jpg');">
             <div class="container">
                 <div class="section-header">
                     <h2>Basic Skills Grades</h2>
@@ -147,18 +185,27 @@
 
                 <div class="card-grid" style="margin-top: var(--space-xl);">
                     <article class="card">
+                        <div class="card-photo">
+                            <img src="assets/a.jpg" alt="Beginner skaters">
+                        </div>
                         <h3>Grades 1-3</h3>
                         <p><strong>Building Foundations</strong></p>
                         <p>Learn to stand, fall safely, and get moving. Progress through basic stroking, T-stops, and snake patterns. Build confidence with balance exercises and backward skating basics.</p>
                     </article>
 
                     <article class="card">
+                        <div class="card-photo">
+                            <img src="assets/d.jpg" alt="Developing skaters">
+                        </div>
                         <h3>Grades 4-6</h3>
                         <p><strong>Developing Skills</strong></p>
                         <p>Master progressive runs, edges, and arabesques. Learn your first spins and turns including outside 3-turns, Mohawks, and cross rolls. Develop fluid movement and control.</p>
                     </article>
 
                     <article class="card">
+                        <div class="card-photo">
+                            <img src="assets/s.jpg" alt="Advanced skaters">
+                        </div>
                         <h3>Grades 7-9</h3>
                         <p><strong>Advanced Techniques</strong></p>
                         <p>Perfect back spins, spreads, and jumps. Learn step sequences and field movements. Grade 9 culminates in a 1-minute programme to music showcasing all your skills.</p>
@@ -174,7 +221,7 @@
         </section>
 
         <!-- Performances Section -->
-        <section id="performances">
+        <section id="performances" style="background-image: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('assets/9.jpg');">
             <div class="container">
                 <div class="section-header">
                     <h2>Performances</h2>
@@ -190,14 +237,16 @@
                         <p>We also put on a Christmas show with group performances, festive fun, and just a hint of panto!</p>
                     </div>
                     <div class="about-image">
-                        <img src="assets/performance.jpg" alt="RRARSC performance">
+                        <div class="fun-photo tilt-left">
+                            <img src="assets/performance.jpg" alt="RRARSC performance">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="contact">
+        <section id="contact" class="contact" style="background-image: linear-gradient(rgba(30,90,138,0.85), rgba(30,90,138,0.85)), url('assets/hero-bg.jpg');">
             <div class="container">
                 <div class="section-header">
                     <h2>Get In Touch</h2>
@@ -230,7 +279,7 @@
     </main>
 
     <!-- Footer -->
-    <footer class="site-footer">
+    <footer class="site-footer" style="background-image: linear-gradient(rgba(51,51,51,0.9), rgba(51,51,51,0.9)), url('assets/d.jpg');">
         <div class="container">
             <nav class="footer-links">
                 <a href="https://www.facebook.com/Reigate-and-Redhill-Roller-Skating-Club-135214560148057" target="_blank" rel="noopener">Facebook</a>
