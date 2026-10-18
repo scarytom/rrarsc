@@ -1,5 +1,4 @@
 # Jobs to do
-- icon for Facebook
 - more photos
 - photos at top of boxes don't shrink well on mobile
 - line breaks in banner subtext
