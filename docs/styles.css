@@ -907,34 +907,64 @@ button:focus {
 
 .photo-pile .fun-photo {
     position: absolute;
-    max-width: 240px;
+    max-width: 200px;
     transition: transform 0.3s ease, z-index 0.1s;
 }
 
 .photo-pile .pile-1 {
     transform: rotate(-4deg);
-    z-index: 3;
-    top: 10%;
-    right: 15%;
+    z-index: 6;
+    top: 0%;
+    right: 55%;
 }
 
 .photo-pile .pile-2 {
-    transform: rotate(6deg);
-    z-index: 2;
-    top: 25%;
+    transform: rotate(7deg);
+    z-index: 5;
+    top: 5%;
     right: 5%;
 }
 
 .photo-pile .pile-3 {
-    transform: rotate(-8deg);
-    z-index: 1;
+    transform: rotate(-6deg);
+    z-index: 4;
+    top: 35%;
+    right: 35%;
+}
+
+.photo-pile .pile-4 {
+    transform: rotate(4deg);
+    z-index: 3;
     top: 40%;
-    right: 20%;
+    right: 70%;
+}
+
+.photo-pile .pile-5 {
+    transform: rotate(-8deg);
+    z-index: 2;
+    top: 65%;
+    right: 50%;
+}
+
+.photo-pile .pile-6 {
+    transform: rotate(6deg);
+    z-index: 1;
+    top: 60%;
+    right: 5%;
 }
 
 .photo-pile .fun-photo:hover {
     z-index: 10;
     transform: rotate(0deg) scale(1.05);
+}
+
+/* Large photo pile for About section */
+.photo-pile-large {
+    min-height: 550px;
+}
+
+.photo-pile-large .fun-photo {
+    max-width: 180px;
 }
 
 @media (max-width: 768px) {
@@ -943,27 +973,51 @@ button:focus {
     }
     
     .photo-pile {
-        min-height: 350px;
+        min-height: 300px;
         margin-top: 2rem;
     }
     
     .photo-pile .fun-photo {
-        max-width: 180px;
+        max-width: 140px;
+        padding: 5px 5px 20px 5px;
     }
     
     .photo-pile .pile-1 {
         top: 0;
-        right: 10%;
+        right: 55%;
     }
     
     .photo-pile .pile-2 {
-        top: 20%;
-        right: 0;
+        top: 0;
+        right: 5%;
     }
     
     .photo-pile .pile-3 {
-        top: 40%;
-        right: 15%;
+        top: 35%;
+        right: 35%;
+    }
+    
+    .photo-pile .pile-4 {
+        top: 35%;
+        right: 70%;
+    }
+    
+    .photo-pile .pile-5 {
+        top: 65%;
+        right: 50%;
+    }
+    
+    .photo-pile .pile-6 {
+        top: 60%;
+        right: 5%;
+    }
+    
+    .photo-pile-large {
+        min-height: 380px;
+    }
+    
+    .photo-pile-large .fun-photo {
+        max-width: 130px;
     }
     
     .card-photo {
