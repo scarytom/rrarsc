@@ -1,5 +1,4 @@
 # Jobs to do
-- burger menu does not collapse when item clicked on mobile
 - icon for Facebook
 - more photos
 - photos at top of boxes don't shrink well on mobile
