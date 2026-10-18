@@ -475,6 +475,48 @@ section {
     margin-bottom: var(--space-2xl);
 }
 
+.section-header-boxed {
+    background: rgba(255, 255, 255, 0.85);
+    padding: var(--space-lg) var(--space-xl);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-header-boxed h2,
+.section-header-boxed p {
+    margin-bottom: var(--space-xs);
+}
+
+.section-header-boxed p:last-child {
+    margin-bottom: 0;
+}
+
+/* Content box for sections with photo backgrounds */
+.content-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: var(--space-xl) var(--space-2xl);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
+.content-box .section-header {
+    margin-bottom: var(--space-xl);
+}
+
+.content-box-narrow {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.content-box-narrow p {
+    margin-bottom: var(--space-md);
+}
+
 .section-header h2 {
     margin-bottom: var(--space-sm);
 }
