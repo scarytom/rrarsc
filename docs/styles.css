@@ -557,6 +557,7 @@ section {
     /* Mobile navigation */
     .menu-toggle {
         display: block;
+        margin-left: auto;
     }
     
     .nav-menu {

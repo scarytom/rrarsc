@@ -1,5 +1,4 @@
 # Jobs to do
-- burger menu is not top right on mobile
 - burger menu does not collapse when item clicked on mobile
 - icon for Facebook
 - more photos
